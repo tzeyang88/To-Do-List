@@ -1,0 +1,90 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+.container {
+    width: 375px;
+    height: 585px;
+    background-color: #0C2039;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.navbar {
+    width: 375px;
+    height: 81px;
+    background-color: #65CCC9;
+    display: inline-block;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.headline {
+    padding-left: 39px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.list {
+    background-color: #FA6161;
+    width: 375px;
+    height: 81px;
+    margin-bottom: 2px;
+}
+
+.radio-button {
+    margin-left: 39px;
+    margin-top: 22px;
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.text-field__container {
+    background-color: #65CCC9;
+    width: 375px;
+    height: 81px;
+    text-transform: uppercase;
+    display: inline-block;
+    display: flex;
+    flex-direction: row; 
+}
+
+.button {
+    text-align: center;
+}
+
+.text-field {
+    width: 250px;
+    height: 79px;
+    border: none;
+    text-transform: uppercase;
+    padding-left: 39px;
+    background-color: #65CCC9;
+    color: white;
+}
+
+input::placeholder {
+    color: white;
+}
+
+.text-field:focus {
+    outline: none;
+}
+
+.button__add-list {
+    background-color: #FA6161;
+    width: 94px;
+    height: 42px;
+    line-height: 42px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin: 21px 38px;
+}

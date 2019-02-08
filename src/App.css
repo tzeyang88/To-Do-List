@@ -1,0 +1,173 @@
+body {
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.container {
+  width: 375px;
+  height: 585px;
+  background-color: #0C2039;
+  margin: 0 auto;
+  border-radius: 5px;
+  position: relative;
+}
+
+.navbar {
+  width: 375px;
+  height: 63.67px;
+  background-color: #65CCC9;
+  display: inline-block;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-bottom: 3px;
+}
+
+.headline {
+  margin-top: 25px;
+  padding-left: 39px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.list-background {
+  width: 375px;
+  height: 435px;
+  overflow: scroll;
+}
+
+.list__container {
+  width: 375px;
+  height: 81px;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  background-color: #FA6161;
+  margin-bottom: 2.5px;
+}
+
+.list__container--item {
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-bottom: 8px;
+  color:white;
+  width: 116px;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+}
+
+.text-field__container {
+  background-color: #65CCC9;
+  width: 375px;
+  height: 81.67px;
+  text-transform: uppercase;
+  margin-top: 10px; 
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+
+.text-field {
+  border: none;
+  text-transform: uppercase;
+  padding-left: 39px;
+  background-color: #65CCC9;
+  color: white;
+  width: 166px;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.text-field:focus {
+  outline: none;
+}
+
+.add__button {
+  background-color: #FA6161;
+  padding: 0px 28px 0px 28px;
+  line-height: 42px;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  margin: 23px 39px;
+  text-transform: uppercase;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.radio__button {
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 100%;
+  cursor:pointer;
+  display: inline-block;
+  margin-top: 25px;
+  margin-left: 35px;
+  position: relative;
+}
+
+.color1 {
+  width: 25px;
+  height: 25px;
+  background-color: #65CCC9;
+  border-radius: 100%;
+  cursor:pointer;
+  top: 5px;
+  left: 5px;
+  position: absolute;
+}
+
+.color2 {
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 100%;
+  cursor:pointer;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.delete__icon {
+  float: right;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  margin-top: 23px;
+  margin-right: 45px;
+  position: relative;
+}
+
+.bar-1 {
+  display: inline-block;
+  border-radius: 2px;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 17px;
+}
+
+.bar-2 {
+  display: inline-block;
+  border-radius: 2px;
+  width: 100%;
+  height: 3px;
+  background-color: white;
+  transform: rotate(-45deg);
+  bottom: 2.6px;
+  position: absolute;
+  bottom: 10px;
+}
+
+
+
